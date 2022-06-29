@@ -35,7 +35,7 @@ class Test(unittest.TestCase):
         this test for the second function - enrollment_number.
         """
 
-        expected_output_file = "expected_output_test2_enrollment_numbers.txt"
+        expected_output_file = "expected2.txt"
         enrollment_numbers(input_json_path1, "test2.out")
         with open("test2.out") as file_to_test:
             data_to_test = list(file_to_test)
